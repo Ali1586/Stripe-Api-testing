@@ -1,0 +1,25 @@
+{
+  "name": "stripe-payment-testing",
+  "version": "1.0.0",
+  "description": "Learn payment API testing with Stripe and Jest",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
+    "test:verbose": "jest --verbose"
+  },
+  "keywords": ["stripe", "payments", "testing", "jest"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "stripe": "^14.0.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "supertest": "^6.3.3",
+    "nock": "^13.3.0"
+  }
+}
