@@ -9,16 +9,6 @@ Att testa mot externa API:er innebär ofta utmaningar med rate-limiting, autenti
 2. Simulerar olika API-svar (allt från lyckade 201 Created till svårare 404- eller 401-fel).
 3. Validerar att rätt headers och payloads skickas.
 
-## Projektstruktur
-
-```text
-github-api-testing/
-├── src/
-│   └── server.js          # Wrapper för GitHub API-anrop
-├── tests/
-│   └── github.test.js     # Testsvit med 20+ scenarios
-├── package.json           # Projektinställningar & dependencies
-└── README.md
 
 Förutsättningar
 Du behöver ha Node.js installerat (rekommenderar v18 eller senare).
